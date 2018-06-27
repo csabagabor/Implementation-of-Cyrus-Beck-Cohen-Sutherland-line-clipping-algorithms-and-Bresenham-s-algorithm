@@ -37,7 +37,7 @@ int getOctant(BresenhamLine line)
 
 	if (m > 1 && dx >= 0 && dy > 0) return 7;
 	if (m <= 1 && dx>0 && dy >= 0) return 8;
-		return 8;
+
 
 	return 0;
 }
